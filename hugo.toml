@@ -1,0 +1,4 @@
+baseURL = "https://chrixal.com/"
+languageCode = "en-us"
+title = "Chrixal"
+theme = "hugo-bearblog"
