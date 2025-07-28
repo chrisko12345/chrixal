@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+
+  <!-- Minimalistický štýl -->
+  {{ $customCSS := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $customCSS.Permalink }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <nav>
+      <a href="/">Domov</a>
+      <a href="/about">O mne</a>
+      <a href="/blog">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now.Year }} {{ .Site.Title }} – Minimalistický blog</p>
+  </footer>
+</body>
+</html>

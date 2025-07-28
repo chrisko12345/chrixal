@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section>
+  <h2>Najnovšie články</h2>
+  {{ range .Pages.ByDate.Reverse }}
+    <article>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p class="post-meta">{{ .Date.Format "2. January 2006" }}</p>
+      {{ if .Summary }}
+        <p>{{ .Summary }}</p>
+      {{ end }}
+    </article>
+  {{ else }}
+    <p>Zatiaľ tu nie sú žiadne články.</p>
+  {{ end }}
+</section>
+{{ end }}

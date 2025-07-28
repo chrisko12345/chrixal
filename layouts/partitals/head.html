@@ -1,0 +1,11 @@
+{{ define "head" }}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+<meta name="description" content="{{ .Site.Params.description }}">
+
+<!-- Načítanie vlastného CSS -->
+{{ $customCSS := resources.Get "css/custom.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $customCSS.Permalink }}">
+{{ end }}
+<meta name="test" content="CUSTOM HEAD LOADED">

@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrixal</title>
-    <link>http://localhost:1313/</link>
+    <link>https://chrixal.com/</link>
     <description>Recent content on Chrixal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jul 2025 10:40:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrixal.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prvy Clanok</title>
-      <link>http://localhost:1313/posts/prvy-clanok/</link>
+      <link>https://chrixal.com/posts/prvy-clanok/</link>
       <pubDate>Mon, 28 Jul 2025 10:40:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/prvy-clanok/</guid>
+      <guid>https://chrixal.com/posts/prvy-clanok/</guid>
       <description>&lt;p&gt;ssss&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>O mne</title>
+      <link>https://chrixal.com/about/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://chrixal.com/about/</guid>
+      <description>&lt;p&gt;Ahoj, som **Chrixal** – rád tvorím jednoduché a čisté projekty.&lt;/p&gt;&#xA;&lt;p&gt;Na tomto blogu píšem o svojich nápadoch, projektoch a učení.&lt;/p&gt;&#xA;&lt;p&gt;Môžeš ma kontaktovať na **email@chrixal.com** alebo cez sociálne siete.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prvý príspevok</title>
+      <link>https://chrixal.com/blog/prvy-prispevok/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://chrixal.com/blog/prvy-prispevok/</guid>
+      <description>&lt;p&gt;Toto je &lt;strong&gt;prvý príspevok&lt;/strong&gt; na mojom minimalistickom blogu!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

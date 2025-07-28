@@ -1,4 +1,6 @@
 baseURL = "https://chrixal.com/"
 languageCode = "en-us"
 title = "Chrixal"
-theme = "hugo-bearblog"
+
+[params]
+  description = "Minimalistický blog o mojich projektoch a myšlienkach."
